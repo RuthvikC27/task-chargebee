@@ -1,5 +1,5 @@
 # Getting started
-> Create firebase-permission.json in permissions folder.
+> Create firebase-permission.json file in permissions folder and put service account authentication information in it.
 ### Sample type:
 ```
 {
@@ -15,7 +15,7 @@
   "client_x509_cert_url": ""
 }
 ```
-> Create fire.js in client/src/components/firebase/ folder.
+> Create fire.js in client/src/components/firebase/ folder and put web app information authentication in it.
 ### Sample type:
 ```
 import firebase from 'firebase';
@@ -53,9 +53,9 @@ export default firebase;
 1. It consists of just four routes. A homepage, authentication page, landing page(after signed in) and message page(where user can send message) and also an 404 error page if url doesn't exist.
 1. User can be sign up using email and password or google authentication. Also sign in by the same process.
 
-### As time was little I could not style the entire homepage.
+### As time was some I could not style the entire homepage.
 
-# Deployed to https://protected-island-81932.herokuapp.com/ -->
+### Deployed to https://protected-island-81932.herokuapp.com/ -->
 
 # TASK 
 
