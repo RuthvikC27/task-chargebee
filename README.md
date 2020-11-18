@@ -35,7 +35,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 export default firebase;
 ```
-
+> Also add twilio accound sid and token in the folder src/routes/messages/send-message.js
 
 # Technologies used -
 1. ReactJS (Webpack)
