@@ -3,8 +3,8 @@ module.exports = (req, res, next) => {
     // Download the helper library from https://www.twilio.com/docs/node/install
     // Your Account Sid and Auth Token from twilio.com/console
     // and set the environment variables. See http://twil.io/secure
-    const accountSid = 'AC61ef6aedbdfadae847cbfde37d789c07';
-    const authToken = '54423234ea5b88e06e54e53a12f3c15f';
+    const accountSid = '';
+    const authToken = '';
     const client = require('twilio')(accountSid, authToken);
 
     client.messages
