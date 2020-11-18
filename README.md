@@ -59,7 +59,7 @@ export default firebase;
 
 # TASK 
 
-Congratulations on clearing round 1 of of internship selection process at WAMessages, a project under Closer Innovation Labs LLP.
+<!-- Congratulations on clearing round 1 of of internship selection process at WAMessages, a project under Closer Innovation Labs LLP.
 This is the 2nd round of selection post which 5 candidates will be invited for a face to fcae interview over Google Meet with the Technical Lead and Product Manager working on this project. 
 The aim of the assignment is to give you a small trailor of what you'll be working on if selected for the internship.
 **The round 2 take home assignment details are as follows -**
@@ -78,4 +78,4 @@ In case of any queries please mail us at support@wamessages.com
 
 > Please note that the first point in the assignment means that you've to code the landing page of the website exactly. This will test your front end skills. 
 
-> Just the login button will work, rest all buttons are dummy. You can download the images from the given website whenever needed but rest all of the components need to be coded in React using Material UI library.
+> Just the login button will work, rest all buttons are dummy. You can download the images from the given website whenever needed but rest all of the components need to be coded in React using Material UI library. -->
