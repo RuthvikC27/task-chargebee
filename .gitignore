@@ -1,0 +1,8 @@
+node_modules
+functions
+webpack/node_modules
+webpack/build
+client/node_modules
+client/dist
+permissions/firebase-permission.json
+client/src/components/firebase/fire.js
