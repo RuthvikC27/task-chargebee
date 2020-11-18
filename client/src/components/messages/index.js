@@ -19,10 +19,8 @@ const Landing = () => {
     const [email, setEmail] = useState();
 
     const [body, setBody] = useState("");
-    const [to, setToo] = useState("");
 
     const [bodyError, setBodyError] = useState("");
-    const [toError, setTooError] = useState("");
 
     const [data, setData] = useState();
 
@@ -46,20 +44,14 @@ const Landing = () => {
     const onSubmit = (e) => {
         e.preventDefault();
         setBodyError("");
-        setTooError("");
 
         if (body === "") {
             setBodyError("Body cannot be null");
             return false;
         }
-        if (to === "") {
-            setTooError("Body cannot be null");
-            return false;
-        }
 
         axios.post("/api/message/sendmessage", {
             body,
-            to
         }).then(res => {
             // console.log(res.data);
             setData(res.data.message);
@@ -140,16 +132,6 @@ const Landing = () => {
                         </Grid>
                         <Grid item>
                             <p className={classes.errorMessages}>{bodyError}</p>
-                        </Grid>
-                        <Grid item>
-                            <input type="text"
-                                className={classes.inputs}
-                                onChange={(e) => setToo(e.target.value)}
-                                value={to}
-                                placeholder="Enter number" />
-                        </Grid>
-                        <Grid item>
-                            <p className={classes.errorMessages}>{toError}</p>
                         </Grid>
 
                         <Grid item>
